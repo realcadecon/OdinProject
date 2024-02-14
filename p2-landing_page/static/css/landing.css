@@ -1,0 +1,222 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+
+    Navigation 
+
+*/
+
+.land-1 {
+    background-color: #E493B3;
+    padding: 1rem 10rem;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.nav-item {
+    color: white;
+}
+
+#nav-logo {
+    margin-right: auto;
+}
+
+/*
+
+    Top Main
+
+*/
+
+.top-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding: 5rem 0;
+    flex-wrap: wrap;
+}
+
+.top-main-item {
+    align-items: flex-start;
+    flex: 1 0 0;
+    flex-basis: 300px;
+}
+
+#top-main-img {
+    max-width: 100%;
+}
+
+.sub-top-main-container h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.sub-top-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.sub-top-main-container h2, .sub-top-main-container p {
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-top-main-container button {
+    color: white;
+    padding: .5rem 1rem;
+    background-color: #8E7AB5;
+    border-radius: .2rem;
+    border-color: #8E7AB5;
+}
+
+.sub-top-main-item {
+    align-items: flex-start;
+}
+
+/*
+
+    Cards
+
+*/
+
+.land-2 {
+    margin: 0 10rem;
+}
+
+.land-2 h2 {
+    padding: 0;
+    margin: 3rem 0;
+    text-align: center;
+    color: #B784B7;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-item {
+    
+}
+
+.sub-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub-card-container img {
+    height: 10rem;
+    width: 9rem;
+    object-fit: cover;
+    border: .2rem solid #EEA5A6;
+    border-radius: 1rem;
+}
+
+div.sub-card-item {
+    padding: 1rem;
+    text-align: center;
+    color: #8E7AB5;
+}
+
+.sub-card-item {
+    width: 9rem;
+}
+
+
+/* 
+
+    Big Quote
+
+*/
+
+.inspo-quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 8rem auto;
+    max-width: 30rem;
+}
+
+#inspo-quote {
+    align-self: flex-start;
+    font-style: italic;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #E493B3;
+}
+
+#inspo-quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #E493B3;
+}
+
+
+/* 
+
+    Footer
+
+*/
+
+.footer-row-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #EEA5A6;
+    padding: 2rem 6rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    gap: 4rem;
+}
+
+.footer-row-item-1 {
+    flex: 4 1 0;
+}
+
+.footer-row-item-2 {
+    flex: 1 1 5rem;
+    text-align: center;
+    width: 100%;
+}
+.footer-row-item-2 button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border-color: white;
+    background-color: #EEA5A6;
+    color: white;
+}
+
+.footer-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .2rem;
+}
+
+.footer-column-item-1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
