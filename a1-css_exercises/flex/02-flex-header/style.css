@@ -11,10 +11,6 @@
   padding: 4px 32px;
 }
 
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
-}
 
 a {
   font-size: 22px;
@@ -22,4 +18,18 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }

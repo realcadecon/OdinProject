@@ -7,6 +7,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 img {
   width: 600px;
 }
@@ -24,4 +31,35 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+li, ul, a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: grey;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
+.left-links {
+  display: flex;
+  gap: 12px;  
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
